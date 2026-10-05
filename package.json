@@ -1,0 +1,19 @@
+{
+  "name": "faiha-medical-clinic",
+  "version": "1.0.0",
+  "description": "Medical website for Al-Fayha Medical Center with appointment booking system",
+  "scripts": {
+    "build": "echo 'Static site ready' && echo 'Site built successfully'",
+    "start": "npx serve . -p 3000",
+    "dev": "npx serve . -l 3000",
+    "preview": "npm run build && npx serve out"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  },
+  "devDependencies": {},
+  "keywords": ["medical", "clinic", "booking", "saudi-arabia", "arabic"],
+  "author": "ADIX MEDIA",
+  "license": "MIT",
+  "private": true
+}
